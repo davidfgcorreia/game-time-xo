@@ -65,7 +65,7 @@ function Index() {
       if (nextWinner) {
         setScores((prev) => ({
           ...prev,
-          [nextWinner]: prev[nextWinner as keyof typeof prev] + 1,
+          [nextWinner]: prev[nextWinner] + 1,
         }));
       } else if (nextBoard.every(Boolean)) {
         setScores((prev) => ({ ...prev, draws: prev.draws + 1 }));
