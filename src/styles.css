@@ -59,6 +59,11 @@
   --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
   --color-sidebar-border: var(--sidebar-border);
   --color-sidebar-ring: var(--sidebar-ring);
+  --color-game-board: var(--game-board);
+  --color-game-cell: var(--game-cell);
+  --color-game-x: var(--game-x);
+  --color-game-o: var(--game-o);
+  --color-game-winner: var(--game-winner);
 }
 
 :root {
@@ -95,6 +100,11 @@
   --sidebar-accent-foreground: oklch(0.208 0.042 265.755);
   --sidebar-border: oklch(0.929 0.013 255.508);
   --sidebar-ring: oklch(0.704 0.04 256.788);
+  --game-board: oklch(0.97 0.01 260);
+  --game-cell: oklch(1 0 0);
+  --game-x: oklch(0.55 0.18 25);
+  --game-o: oklch(0.55 0.18 240);
+  --game-winner: oklch(0.65 0.18 85);
 }
 
 .dark {
@@ -130,6 +140,11 @@
   --sidebar-accent-foreground: oklch(0.984 0.003 247.858);
   --sidebar-border: oklch(1 0 0 / 10%);
   --sidebar-ring: oklch(0.551 0.027 264.364);
+  --game-board: oklch(0.2 0.02 260);
+  --game-cell: oklch(0.25 0.02 260);
+  --game-x: oklch(0.7 0.16 25);
+  --game-o: oklch(0.7 0.16 240);
+  --game-winner: oklch(0.75 0.16 85);
 }
 
 @layer base {
