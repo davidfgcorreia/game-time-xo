@@ -140,6 +140,11 @@
   --sidebar-accent-foreground: oklch(0.984 0.003 247.858);
   --sidebar-border: oklch(1 0 0 / 10%);
   --sidebar-ring: oklch(0.551 0.027 264.364);
+  --game-board: oklch(0.2 0.02 260);
+  --game-cell: oklch(0.25 0.02 260);
+  --game-x: oklch(0.7 0.16 25);
+  --game-o: oklch(0.7 0.16 240);
+  --game-winner: oklch(0.75 0.16 85);
 }
 
 @layer base {
