@@ -1,24 +1,16 @@
-# Tic Tac Toe Fun
+# Game Time XO
 
-make a tick tack toe app
+A local two-player tic-tac-toe game with turn indicators, win/draw detection, round reset, and a session scoreboard for X, O, and draws.
 
-This project was built with [Lovable](https://lovable.dev).
-
-## Build with Lovable
-
-Continue developing this project in the [Lovable editor](https://lovable.dev/projects/e3e39410-ec53-4836-8be2-b1c1ce6d62fd).
-
-- **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: every change made in Lovable is committed straight to this repository.
-- **Full ownership**: this code is yours. Push to `main` on GitHub and your changes sync back into Lovable, ready for your next prompt.
+Built with React, TypeScript, TanStack Start, Vite, and Tailwind CSS. This project is connected to Lovable; preserve published Git history when updating it.
 
 ## Development
 
-Prefer working locally? You need Node.js and npm — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
-
 ```sh
-git clone <this-repository-url>
-cd <repository-name>
-npm i
+npm install
 npm run dev
 ```
+
+Open the URL printed by Vite. Use `npm run build` for a production build and `npx tsc --noEmit` for the TypeScript check. Dependencies are also tracked in `bun.lock`; avoid committing an additional npm lockfile when using npm locally.
+
+Scores live in page state and reset when the page reloads. Multiplayer networking and persistent accounts are not part of the current game.
